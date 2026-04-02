@@ -7,35 +7,25 @@
 
 <style>
 :root {
-  --main-color: #cf0000; /* لون الأزرار */
+  --main-color: #cf0000;
 }
 
-/* الخلفية */
 body {
   margin: 0;
   height: 100vh;
   font-family: Arial;
   color: white;
-
-  /* اختار واحد بس 👇 */
-
-  /* لون */
   background: #0b0b0b;
-
-  /* أو صورة */
-  /* background: url("bg.jpg") no-repeat center center/cover; */
 }
 
-/* يخلي كل المحتوى في النص */
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* عمودي */
-  align-items: center;     /* أفقي */
+  justify-content: center;
+  align-items: center;
 }
 
-/* اللوجو */
 .logo img {
   width: 120px;
   height: 120px;
@@ -44,14 +34,12 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-/* حركة */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0px); }
 }
 
-/* الأزرار */
 .btn {
   display: flex;
   justify-content: space-between;
@@ -72,7 +60,8 @@ body {
 }
 
 .icon {
-  font-size: 20px;
+  width: 25px;
+  height: 25px;
 }
 </style>
 
@@ -83,28 +72,27 @@ body {
 <div class="container">
 
   <div class="logo">
-    <!-- حط اللوجو هنا -->
-    <img src="https://cdn.discordapp.com/attachments/1485108117288124546/1485108376873599107/a94dcd58a593a93b.png?ex=69cfd3b5&is=69ce8235&hm=ed1fee3db089228042d917583bce4ab43e18ad12b5409510a6d0b97dd07b3233&" alt="logo">
+    <img src="https://cdn.discordapp.com/attachments/1485108117288124546/1485108376873599107/a94dcd58a593a93b.png" alt="logo">
   </div>
 
   <a href="https://t.me/GOG_BYPASS" class="btn">
     TELEGRAM CHANNEL
-    <span class="https://imagepng.org/wp-content/uploads/2017/11/telegram-icone-icon.png">🎮</span>
+    <img src="https://imagepng.org/wp-content/uploads/2017/11/telegram-icone-icon.png" class="icon">
   </a>
 
   <a href="https://t.me/GOG_BYPASS1" class="btn">
     TELEGRAM GROUP
-    <span class="https://imagepng.org/wp-content/uploads/2017/11/telegram-icone-icon.png">💬</span>
+    <img src="https://imagepng.org/wp-content/uploads/2017/11/telegram-icone-icon.png" class="icon">
   </a>
 
   <a href="https://discord.gg/gdwY5Saxj7" class="btn">
     DISCORD MAIN GOG
-    <span class="https://tse2.mm.bing.net/th/id/OIP.JxDw-5bFs4goAom52j2g5gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">📢</span>
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" class="icon">
   </a>
 
   <a href="https://discord.gg/R52Uv2QQYd" class="btn">
     DISCORD BACKUP GOG
-    <span class="https://tse2.mm.bing.net/th/id/OIP.JxDw-5bFs4goAom52j2g5gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">📱</span>
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" class="icon">
   </a>
 
 </div>
